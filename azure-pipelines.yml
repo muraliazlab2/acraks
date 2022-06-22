@@ -53,7 +53,7 @@ stages:
   - deployment: Deploy
     displayName: Deploy
     pool:
-      name: Loal
+      name: Local
       vmImage: $(vmImageName)
     environment: 'muraliazlab2acraks.default'
     strategy:
