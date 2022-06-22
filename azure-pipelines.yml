@@ -19,7 +19,7 @@ variables:
   imagePullSecret: 'acrdemocicd59911c3f-auth'
 
   # Agent VM image name
-  vmImageName: 'Ubuntu 16.04'
+  vmImageName: 'ubuntu-latest'
 
 
 stages:
